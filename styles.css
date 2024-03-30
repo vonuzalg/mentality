@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+	line-height: 1.4;
+    background: url(фон.jpg) no-repeat center;
+    background-size: cover;
+}
+h1{
+    font-size: 70px;
+	color: #603074; 
+}
+.title h1{
+    font-family: 'Noto Sans', sans-serif;
+   	font-size: 50px;
+    margin-bottom: 50px;
+    color: #d596d5;   
+}
+.title span{
+    color: #af63cf;
+}
+.list_menu a{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    color: #d596d5;
+    border-left: 2px solid;
+    padding-left: 5px;
+    transition: all 0.2s ease;
+}
+.list_menu a:hover{
+    border-left: 2px solid #d596d5;
+    padding-left: 10px;
+    transition: all 0.2s ease;
+}
+.list_menu li{
+    margin: 25px 0;
+    padding: 7px;
+    list-style: none;
+}
+.menu{
+    padding: 25px 50px;
+    position: absolute;
+    background: rgba(20, 20, 20, 0.5);
+    height: 80vh;
+    border-right: 7px solid #d596d5;
+}
+h2{
+    margin-left: 630px; 
+   	font-size: 50px;
+    color: #d596d5;
+}
+.probel{
+    padding-left: 489px;
+}
+.text{
+    padding-left: 630px;
+    font-size: 26px;
+    padding-right: 30px;
+}
+.waves{
+    font-size: 20px;
+    padding-left: 630px;
+    padding-top: 1000px;
+}
+.text1{
+    margin-left:30px;
+    margin-right:30px;
+    margin-bottom: 60px;
+    padding-left: 630px;
+    font-size: 26px;
+    padding-right: 30px;
+}
+footer{
+    background: #8d9297;
+    color: #d8adea;
+    padding-top: 50px;
+    bottom: 80px;
+}
+.block{
+    display: flex;
+    justify-content: space-between;
+}
+.block h3{
+    font-size: 35px;
+    padding-left: 200px;
+}
+h4{
+    padding-left: 200px;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.search input[type=text]{
+    width: 442px;
+    height: 70px;
+    color: #acc4d5;
+    padding-left: 27px;
+    font-size: 15px;
+}
+.search{
+    padding-right: 20px;
+}
+hr{
+    opacity: 0.5;
+    color: #ce92ce;
+    margin-top: 47px;
+    margin-bottom: 70px;
+}
+h5{
+    font-size: 18px;
+    color: #000;
+    padding-left: 650px;
+}
+.pd{
+    font-size: 13px;
+    color: #000;
+    padding-left: 500px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+}
